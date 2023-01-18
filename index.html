@@ -8,21 +8,27 @@
   
   <title>Frontend Mentor | Advice generator app</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+   <link rel='stylesheet' href='style.css'>
+   <script src="https://kit.fontawesome.com/f4cacdde22.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
-  Advice #<!-- Advice ID goes here -->
-
-  "<!-- Advice text goes here -->"
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class=container>
+    <div class='card'>
+      <div class='advice-header'> Advice #<span id='advice-id'>1</span></div>
+      <div id='advice-container'>"If you have grandparents or parents - Talk to them more. Ask them about their life experiences."</div>
+      <div class='divider'>
+        <img src="images/pattern-divider-desktop.svg" alt="" id='dice-divider'></div>
+        <div class='button-container'>
+          <div class='dice-button'>
+            <input type="image" src="images/icon-dice.svg" name="fetchAdvice" class="button" onclick='fetchRandomAdvice()' />
+          </div>
+        </div>
+    </div>
   </div>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Olga Gabbert</a>.
+  </div> -->
+  <script src="main.js"></script>
 </body>
 </html>
