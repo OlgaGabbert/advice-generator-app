@@ -33,7 +33,7 @@ body {
 }
 
 .dice-button:hover {
-    box-shadow: 0 0 10px hsl(150, 100%, 66%), 0 0 40px hsl(150, 100%, 66%), 0 0 80px hsl(150, 100%, 66%);
+    box-shadow: 0 0 10px hsl(150, 100%, 66%), 0 0 40px hsl(150, 100%, 66%), 0 0 40px hsl(150, 100%, 66%);
 }
 
 .advice-header {
@@ -71,5 +71,12 @@ body {
 }
 
 @media only screen and (max-device-width: 375px) {
+    .card {
+        width: 290px;
+        padding: 25px;
+    }
 
+    .dice-button:hover {
+        box-shadow: none;
+    }
 }

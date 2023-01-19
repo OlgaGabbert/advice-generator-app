@@ -17,7 +17,16 @@
       <div class='advice-header'> ADVICE #<span id='advice-id'>1</span></div>
       <div id='advice-container'>"If you have grandparents or parents - Talk to them more. Ask them about their life experiences."</div>
       <div class='divider'>
-        <img src="images/pattern-divider-desktop.svg" alt="" id='dice-divider'></div>
+        <picture>
+          <source 
+             media="(min-width: 1440px)"
+             srcset="images/pattern-divider-desktop.svg">
+          <source 
+             media="(min-width: 375px)"
+             srcset="images/pattern-divider-mobile.svg">
+          <img id='dice-divider' src="images/pattern-divider-mobile.svg" 
+          alt="divider">
+       </picture>
         <div class='button-container'>
           <div class='dice-button'>
             <input type="image" src="images/icon-dice.svg" name="fetchAdvice" class="button" onclick='fetchRandomAdvice()' />
