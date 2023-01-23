@@ -23,7 +23,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop Version](images/ScreenshotA.png?raw=true "Desktop")
+![Desktop Version](images/Screenshot-new.png?raw=true "Desktop")
+![Active States](images/Screenshot-Active.png?raw=true "Active")
 ![Mobile Version](images/ScreenshotB.png?raw=true "Mobile")
 
 ### Links
