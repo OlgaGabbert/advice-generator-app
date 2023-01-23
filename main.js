@@ -11,3 +11,5 @@ async function fetchRandomAdvice() {
     randomAdvice.textContent = "\"" + myRandomAdvice + "\"";
     randomAdviceID.textContent = myRandomAdviceID;
 }
+
+fetchRandomAdvice();

@@ -26,14 +26,15 @@ body {
 .dice-button {
     background-color: hsl(150, 100%, 66%);
     border-radius: 50%;
-    width: 30px;   
+    width: 30px;  
+    height: 30px;
     display: flex;
     justify-content: center;
     padding: 15px;
 }
 
 .dice-button:hover {
-    box-shadow: 0 0 10px hsl(150, 100%, 66%), 0 0 40px hsl(150, 100%, 66%), 0 0 40px hsl(150, 100%, 66%);
+    box-shadow: 0 0 10px hsl(150, 100%, 66%), 0 0 0px hsl(150, 100%, 66%), 0 0 20px hsl(150, 100%, 66%);
 }
 
 .advice-header {
